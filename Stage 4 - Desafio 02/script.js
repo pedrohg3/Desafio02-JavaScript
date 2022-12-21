@@ -38,7 +38,7 @@ function avarageStudent(student) {
 
 for (let student of students) {
     
-if (((student.noteOne + student.noteTwo) / 2) >= 7) {
+if ((student.noteOne + student.noteTwo) / 2 >= 7) {
     alert(avarageStudent(student) + "Parabéns, você passou no consurso!")
 } else {
     alert(avarageStudent(student) + "Infezlimente você não obteve média para ser aprovado!")
